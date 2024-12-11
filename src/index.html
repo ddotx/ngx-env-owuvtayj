@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>@ngx-env/builder - %NG_APP_NAME%</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        font-size: 24px;
+        font-family: 'Lato';
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Index.html</h2>
+    <span>NODE_ENV: %NODE_ENV%</span>
+    <br />
+    <span>NG_APP_NAME: %NG_APP_NAME%</span>
+    <hr />
+    <h2>App Component</h2>
+    <app-root></app-root>
+    <hr />
+    <h2>Usage</h2>
+    <ul>
+      <li>
+        Update start script in package.json and the values inside .env files
+      </li>
+      <li>
+        Refresh the window or use the terminal to restart the server and see
+        your updates
+      </li>
+    </ul>
+  </body>
+</html>

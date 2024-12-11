@@ -1,0 +1,30 @@
+{
+  "name": "ng-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "ng": "ng",
+    "start": "npm run start:production",
+    "start:local": "ng serve",
+    "start:development": "NODE_ENV=development ng serve",
+    "start:production": "NODE_ENV=production ng serve",
+    "build": "NODE_ENV=production ng build"
+  },
+  "dependencies": {
+    "@angular/common": "^19.0.0",
+    "@angular/compiler": "^19.0.0",
+    "@angular/core": "^19.0.0",
+    "@angular/platform-browser": "^19.0.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.15.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^19.0.0",
+    "@angular/cli": "^19.0.0",
+    "@angular/compiler-cli": "^19.0.0",
+    "@ngx-env/builder": "^19.0.0",
+    "typescript": "~5.6.3",
+    "@types/node": "^18.18.0"
+  }
+}
